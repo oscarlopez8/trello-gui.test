@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db658b49-f169-44f0-ab98-b4a3fe1cd940" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YOECRjcOyZzkHzdX6av9PxOZWY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../poctrello" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: login">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="trello-gui-test.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardPageTest.clickOnPlusButton_CreateABoard_BoardCreated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BoardPageTest.clickOnPlusButton_CreateABoard_BoardCreated&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BoardPageTest.createBoard_CreateANewBoard_BoardCreated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BoardPageTest.createBoard_CreateANewBoard_BoardCreated&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainPageTests.clickOnUserButton_ClickOnUserButton_WindowShouldBeDisplayed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MainPageTests.clickOnUserButton_ClickOnUserButton_WindowShouldBeDisplayed&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainPageTests.clickOnUserButton_FindUserName_DisplayUserName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MainPageTests.clickOnUserButton_FindUserName_DisplayUserName&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: login" />
+        <item itemvalue="Gradle.BoardPageTest.createBoard_CreateANewBoard_BoardCreated" />
+        <item itemvalue="Gradle.BoardPageTest.clickOnPlusButton_CreateABoard_BoardCreated" />
+        <item itemvalue="Gradle.MainPageTests.clickOnUserButton_FindUserName_DisplayUserName" />
+        <item itemvalue="Gradle.MainPageTests.clickOnUserButton_ClickOnUserButton_WindowShouldBeDisplayed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db658b49-f169-44f0-ab98-b4a3fe1cd940" name="Default Changelist" comment="" />
+      <created>1582805112702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582805112702</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1583102937545">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="522" y="93" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1583102937545" />
+    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1582922276546" />
+    <state x="502" y="187" key="FileChooserDialogImpl" timestamp="1583096363582">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="502" y="187" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1583096363582" />
+    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1582897889397" />
+    <state width="1316" height="217" key="GridCell.Tab.0.bottom" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277399" />
+    <state width="1316" height="217" key="GridCell.Tab.0.center" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277397" />
+    <state width="1316" height="217" key="GridCell.Tab.0.left" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277397" />
+    <state width="1316" height="217" key="GridCell.Tab.0.right" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277398" />
+    <state width="1316" height="217" key="GridCell.Tab.1.bottom" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277365" />
+    <state width="1316" height="217" key="GridCell.Tab.1.center" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277365" />
+    <state width="1316" height="217" key="GridCell.Tab.1.left" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277365" />
+    <state width="1316" height="217" key="GridCell.Tab.1.right" timestamp="1583106265784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="217" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1583106265784" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1582928277365" />
+    <state x="276" y="0" key="SettingsEditor" timestamp="1583095031176">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="276" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1583095031176" />
+    <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1582826806432" />
+    <state x="433" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583095221347">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="433" y="236" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1583095221347" />
+    <state x="535" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1582826986374" />
+    <state x="432" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583105393232">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="432" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1583105393232" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java</url>
+          <line>32</line>
+          <properties field="CSS_BUTTON_CREATE_A_BOARD" class="trello.pages.BoardPage" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
