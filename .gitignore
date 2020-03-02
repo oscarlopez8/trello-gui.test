@@ -1,6 +1,9 @@
 # Idea Folder
 .idea/
 
+# Gradle Folder
+.gradle/
+
 # Compiled class file
 *.class
 

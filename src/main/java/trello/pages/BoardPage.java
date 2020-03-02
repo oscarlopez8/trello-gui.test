@@ -66,7 +66,7 @@ public class BoardPage extends BasePage {
         clickCreateButton();
         String uri = driver.getTitle();
 
-        String actualResult = driver.findElement(By.cssSelector("js-board-editing-target board-header-btn-text")).getText();
+        String actualResult = driver.findElement(By.className("js-board-editing-target board-header-btn-text")).getText();
         System.out.println(actualResult);
     }
 
