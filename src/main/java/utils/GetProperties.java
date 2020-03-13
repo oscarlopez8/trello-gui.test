@@ -13,13 +13,15 @@ public class GetProperties {
      * @return Properties.
      */
     public static Properties getProperties(final String path) {
-        try {
+
+        try  {
             InputStream input = new FileInputStream(path);
             Properties properties = new Properties();
             properties.load(input);
             return properties;
-        } catch (IOException ioex) {
-            throw new RuntimeException(ioex);
+        } catch (IOException ioe) {
+            Log.getInstance().getLogger().info("IOException: " + ioe);
+            throw new RuntimeException(ioe + path + " could not be read.");
         }
     }
 }

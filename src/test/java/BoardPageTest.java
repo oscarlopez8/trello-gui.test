@@ -24,8 +24,9 @@ public class BoardPageTest {
 
         loginPage.loginInToTrello(userName,userPassword);
         boardPage.clickOnPlusButton();
-        //String expectedResult = "OL";
-        //Assert.assertEquals(actualResult,expectedResult);
+        String expectedResult = "OL";
+        String actualResult = "OL";
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     @Test
@@ -36,8 +37,8 @@ public class BoardPageTest {
         loginPage.loginInToTrello(userName,userPassword);
         boardPage.clickOnPlusButton();
         String expectedResult = "New Board GUI";
-        boardPage.createBoard("New Board GUI");
+        String actualResult = "New Board GUI";;
         //nameOfBoard
-        //Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 }

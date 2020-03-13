@@ -8,8 +8,9 @@ public class WebDriverConfig {
 
     // Path of gradle properties file.
     public static final String PATH_OF_GRADLE_PROPERTIES_FILE = "gradle.properties";
+
     // Name of property of gradle properties file.
-    public static final String BROWSER_NAME = "browserName";
+    public static final String BROWSER = "browserName";
 
     private static WebDriverConfig webDriverConfig;
     private Properties properties;
@@ -41,18 +42,12 @@ public class WebDriverConfig {
     }
 
     /**
-     * Gives the browser properties read from 'gradle.properties'.
-     *
-     * @return a browser.
-     */
-    /**
      * Gets a Browser name.
      * @return Names of Browser
      */
     public String getBrowser() {
-        Properties properties;
-        properties = GetProperties.getProperties(PATH_OF_GRADLE_PROPERTIES_FILE);
-        return properties.getProperty(BROWSER_NAME).toLowerCase();
+        //return System.getProperty(BROWSER).toLowerCase();
+        return properties.getProperty(BROWSER).toLowerCase();
     }
 
     /**

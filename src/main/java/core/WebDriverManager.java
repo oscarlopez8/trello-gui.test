@@ -2,16 +2,13 @@ package core;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.GetProperties;
 
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class WebDriverManager {
 
     // Content WebDriverManager.
     private static WebDriverManager webDriverManager;
-
 
     // Content WebDriver.
     private WebDriver webDriver;
@@ -23,7 +20,7 @@ public class WebDriverManager {
      * this method is used for initializes the variables.
      */
     private WebDriverManager() {
-        initialize();
+        initializes();
     }
 
     /**
@@ -31,9 +28,9 @@ public class WebDriverManager {
      *
      * @return a webDriverManager.
      */
-    public WebDriverManager getInstance() {
+    public static WebDriverManager getInstance() {
 
-        if (webDriverManager == null || this.webDriver == null) {
+        if (webDriverManager == null || webDriverManager.webDriver == null ) {
             webDriverManager = new WebDriverManager();
         }
         return webDriverManager;
@@ -42,7 +39,7 @@ public class WebDriverManager {
     /**
      * This method is used for initializes the variables.
      */
-    private void initialize() {
+    private void initializes() {
         this.webDriver = WebDriverFactory.getWebDriver(WebDriverConfig.getInstance().getBrowser());
         this.webDriver.manage().window().maximize();
         this.webDriver.manage().timeouts().implicitlyWait(WebDriverConfig.getInstance().getImplicitWaitTime(),

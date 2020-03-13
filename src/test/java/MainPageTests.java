@@ -1,19 +1,17 @@
 import org.junit.After;
-import static org.junit.Assert.*;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import trello.pages.LoginPage;
 import trello.pages.MainPage;
 
-import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 
 public class MainPageTests {
 
     MainPage mainPage;
     LoginPage loginPage;
     WebDriver driver;
+
     @After
     public void tearDown() {
         //WebDriverManager.getInstance().quitDriver();

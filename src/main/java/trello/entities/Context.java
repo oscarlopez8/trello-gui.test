@@ -3,10 +3,12 @@ package trello.entities;
 public class Context {
     private User user;
     private Board board;
+    private List list;
 
     public Context() {
         this.user = new User();
         this.board = new Board();
+        this.list = new List();
     }
 
     /**
@@ -25,6 +27,24 @@ public class Context {
      */
     public void setUser(final User user) {
         this.user = user;
+    }
+
+    /**
+     * Gets Board.
+     *
+     * @return the Board.
+     */
+    public List getList() {
+        return list;
+    }
+
+    /**
+     * Sets List.
+     *
+     * @param list variable of the List.
+     */
+    public void setList(final List list) {
+        this.list = list;
     }
 
     /**

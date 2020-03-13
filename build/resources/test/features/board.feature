@@ -1,10 +1,19 @@
 Feature: Board
 
-  Scenario: Creates a Board, using the button "Create new board" of Home Page.
-    Given I am on the login page
-      And I set user and password with "oscar.lopez@fundacion-jala.org" and "O3728236l"
-    When I create a new Board with name "New Board to test"
+#  Scenario: Creates a Board
+#    Given I am logged with valid user
+#    When I create a new Board with name "New Board to test"
+#    Then I should see the name of Board in BoardPage
+
+  Scenario: Creates a public Board
+    When I create a new board whit following information
+      | name | New Board |
+      | type | Público   |
     Then I should see the name of Board in BoardPage
-    When I go to the Home page using top menu
-      And I should see the Board in the Recently Viewed section
-      And I should see the Board in the Personal Boards section
+
+
+#  Scenario: Deletes a Board
+##    Given I am logged with valid user
+##    When I delete a existing board with "New Board to test"
+##    Then I should see the name of Board in BoardPage
+
